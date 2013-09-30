@@ -1,0 +1,33 @@
+/**
+ * 這是作為固定版面配置測試
+ * 
+ * By: 元兒～ <yuan817@moztw.org>
+ * 
+ * Description:
+ * 固定寬度為960px
+ * 左欄（主要內容）為固定寬度710px
+ * 右欄為固定寬度250px
+*/
+
+body{
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+}
+
+#wrapper>#content {
+	float: left;
+	width: 710px;
+	background: #fcc;	/*背景顏色*/
+}
+
+#wrapper>aside {
+	float: right;
+	width: 250px;
+	background: #cfc;	/*背景顏色*/
+}
+
+footer {
+	clear: both;
+	background: #666;
+}
