@@ -10,24 +10,24 @@
 */
 
 body{
-    position: relative;
-    width: 960px;
-    margin: 0 auto;
+  position: relative;
+  width: 960px;
+  margin: 0 auto;
 }
 
 #wrapper>#content {
-	float: left;
-	width: 710px;
-	background: #fcc;	/*背景顏色*/
+  float: left;
+  width: 710px;
+  background: #fcc;	/*背景顏色*/
 }
 
 #wrapper>aside {
-	float: right;
-	width: 250px;
-	background: #cfc;	/*背景顏色*/
+  float: right;
+  width: 250px;
+  background: #cfc;	/*背景顏色*/
 }
 
 footer {
-	clear: both;
-	background: #666;
+  clear: both;
+  background: #666;
 }

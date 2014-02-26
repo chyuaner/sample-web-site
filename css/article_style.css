@@ -10,14 +10,14 @@
  * 2013-02-08
 */
 body {
-	font-size: 16px;
-	font-family: "文泉驛正黑","王漢宗細黑體繁","微軟正黑體","HanWangHeiLight","Arial Unicode MS";
-	color: #333333;
+  font-size: 16px;
+  font-family: "文泉驛正黑","王漢宗細黑體繁","微軟正黑體","HanWangHeiLight","Arial Unicode MS";
+  color: #333333;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-weight: bold;
-	line-height: 40px; 
+  font-weight: bold;
+  line-height: 40px; 
 }
 h1 { font-size: 38px; }
 h2 { font-size: 30px; }
@@ -31,66 +31,66 @@ h3 small { font-size: 14px; }
 h4 small { font-size: 14px; }
 
 p {
-	text-indent: 2em;
-	margin: 0 0 1em;
+  text-indent: 2em;
+  margin: 0 0 1em;
 }
 p strong {
-	font-weight: bold;
-	color: green;
+  font-weight: bold;
+  color: green;
 }
 
 a {
-	color: mediumblue;
-	text-decoration: none;
+  color: mediumblue;
+  text-decoration: none;
 }
 a:hover {
-	color: midnightblue;
-	text-decoration: underline;
+  color: midnightblue;
+  text-decoration: underline;
 }
 a:active {
-	color: #A52A2A;
-	text-decoration: underline;
+  color: #A52A2A;
+  text-decoration: underline;
 }
 
 ul, ol {
-	margin: 0 0 1em;
-	margin-left: 4em;
-	line-height: 1.5em;
+  margin: 0 0 1em;
+  margin-left: 4em;
+  line-height: 1.5em;
 }
 li ul, li ol {
-	margin-left: 2em;
+  margin-left: 2em;
 }
 ul li {
-	list-style-type: disc;
-	list-style-position: outside;
+  list-style-type: disc;
+  list-style-position: outside;
 }
 ol li {
-	list-style-type: decimal;
-	list-style-position: outside;
+  list-style-type: decimal;
+  list-style-position: outside;
 }
 
 img {
-	/*等比例縮小*/
-	vertical-align: middle;
-	max-width:100%; 
-	max-height:100%;
-	/*_width:expression(this.width > 100 && this.width > this.height ? 100: auto); *//* IE6 */
-	/*_height:expression(this.height > 100 ? 100 : auto); *//* IE6 */
+  /*等比例縮小*/
+  vertical-align: middle;
+  max-width:100%; 
+  max-height:100%;
+  /*_width:expression(this.width > 100 && this.width > this.height ? 100: auto); *//* IE6 */
+  /*_height:expression(this.height > 100 ? 100 : auto); *//* IE6 */
 }
 table,th,td {
-	margin: 0 0 1em;
-	border: 1px solid gray;
-	border-collapse: collapse;
+  margin: 0 0 1em;
+  border: 1px solid gray;
+  border-collapse: collapse;
 }
 th,td {
-	padding: 3px;
+  padding: 3px;
 }
 th {
-	font-weight: bold;
+  font-weight: bold;
 }
 thead {
-	background-color: #BFBFBF;
+  background-color: #BFBFBF;
 }
 tbody th {
-	background-color: #E0E0E0;
+  background-color: #E0E0E0;
 }
